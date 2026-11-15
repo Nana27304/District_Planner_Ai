@@ -1,0 +1,19 @@
+# Secrets - NEVER push
+secrets.toml
+.streamlit/secrets.toml
+
+# Database - your saved plans
+planner_history.db
+history.db
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Ollama / Local only
+Modelfile
+Modelfile.txt
